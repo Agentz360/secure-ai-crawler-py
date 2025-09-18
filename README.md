@@ -68,7 +68,7 @@ Learn more about AI-Crawler and Oxylabs AI Studio Python SDK in our [PyPI reposi
 
 | Parameter            | Description                                         | Default Value |
 |----------------------|-----------------------------------------------------|---------------|
-| `url`*              | Starting URL to crawl                               | `chatgpt`     |
+| `url`*              | Starting URL to crawl                               | –     |
 | `user_prompt`*      | Natural language prompt to guide extraction          | –             |
 | `output_format`     | Output format (`json`, `markdown`)                   | `markdown`    |
 | `schema`            | OpenAPI schema for structured extraction (mandatory for JSON) | –   |
