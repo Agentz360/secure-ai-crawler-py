@@ -8,20 +8,22 @@ This low-code tool is designed to simplify complex data acquisition tasks, allow
 
 ## Key features
 
-- **Start a crawl from any given URL:** Begin your data extraction from any valid web address as a starting point.  
-- **Natural language prompt:** Define your data needs in plain English, and the crawl agent will navigate the website to find the right information.  
-- **AI-assisted URL selection:** The web crawler intelligently navigates the site, identifying and prioritizing pages that are most relevant to your prompt.  
-- **Multiple output formats:** Choose between JSON for structured data or Markdown output for easily readable text and AI workflows.  
-- **Schema-based parsing:** For JSON output, you can define a parsing schema in natural language to ensure the extracted data is perfectly structured and ready for your specific applications.  
+- **Start a crawl from any given URL:** Begin your data extraction from any valid web address using the AI Crawler as a starting point.  
+- **Natural language prompt:** Define your data needs in plain English, and the crawl agent will interpret the prompt to find relevant content.  
+- **AI-assisted URL selection:** The AI web crawler intelligently explores the site, identifying and prioritizing pages most aligned with your prompt.  
+- **Multiple output formats:** Choose between structured JSON or Markdown output for seamless integration into automation or AI workflows.  
+- **Schema-based parsing:** For JSON output, you can define a parsing schema in natural language to ensure the extracted data is structured to fit your application.
+
 
 ## How it works
 
-To get started with the AI-Crawler, follow this four-step process:
+To get started with the AI Crawler, follow this four-step process:
 
-1. **Provide a starting URL** of the website you want to crawl.  
-2. **Describe the pages** to retrieve using a natural language prompt.  
-3. **Select the output format.** Choose between structured JSON or Markdown output.  
-4. **If you select JSON output,** provide a schema to guide the AI in parsing and structuring the data precisely as you need it.  
+1. **Provide a starting URL** of the website you want the web crawler to explore.  
+2. **Describe the content** you want to retrieve using a natural language prompt for the crawl agent.  
+3. **Select the output format.** Choose between structured JSON or Markdown.  
+4. **If using JSON output,** provide a schema to guide the AI web crawler in parsing and structuring the extracted data.
+
 
 ### Installation
 
