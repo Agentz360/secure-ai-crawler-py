@@ -1,6 +1,6 @@
 # AI-Crawler
 
-![AI-Crawler Header](./header.png) <!-- Replace with actual header image path -->
+![AI-Crawler Header](https://github.com/oxylabs/ai-crawler-py/blob/main/Ai-studio%20.png) <!-- Replace with actual header image path -->
 
 The [**AI-Crawler**](https://aistudio.oxylabs.io/apps/crawl) is an experimental data extraction app by [**Oxylabs AI Studio**](https://aistudio.oxylabs.io/) that uses advanced AI algorithms to crawl a given domain. It identifies relevant pages based on a natural language prompt and extracts structured **JSON** or **Markdown** output data.  
 
