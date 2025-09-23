@@ -2,6 +2,9 @@
 
 ![AI-Crawler Header](https://github.com/oxylabs/ai-crawler-py/blob/main/Ai-studio%20.png) <!-- Replace with actual header image path -->
 
+[![](https://dcbadge.limes.pink/api/server/Pds3gBmKMH?style=for-the-badge&theme=discord)](https://discord.gg/Pds3gBmKMH) [![YouTube](https://img.shields.io/badge/YouTube-Oxylabs-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@oxylabs)
+
+
 The [**AI-Crawler**](https://aistudio.oxylabs.io/apps/crawl) is an experimental data extraction app by [**Oxylabs AI Studio**](https://aistudio.oxylabs.io/) that uses advanced AI algorithms to crawl a given domain. It identifies relevant pages based on a natural language prompt and extracts structured **JSON** or **Markdown** output data.  
 
 This low-code tool is designed to simplify complex data acquisition tasks, allowing developers and data scientists to focus on analysis rather than building and maintaining custom web scrapers. The AI web crawler offers advanced filtering, schema-based parsing, and seamless integration with various automation pipelines.  
