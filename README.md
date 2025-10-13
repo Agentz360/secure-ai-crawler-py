@@ -43,6 +43,7 @@ The following examples demonstrate how to use the `AiCrawler` to perform common 
 
 ```python
 from oxylabs_ai_studio.apps.ai_crawler import AiCrawler
+import json
 
 # Initialize the AI Crawler with your API key
 crawler = AiCrawler(api_key="your_api_key")
@@ -63,10 +64,9 @@ result = crawler.crawl(
     geo_location="US",
 )
 
-# Print the crawl output
+# Print the crawl output as JSON
 print("Results:")
-for item in result.data:
-    print(item, "\n")
+print(json.dumps(result.data, indent=2))
 ```
 Learn more about AI-Crawler and Oxylabs AI Studio Python SDK in our [PyPI repository](https://pypi.org/project/oxylabs-ai-studio/). You can also check out our [AI Studio JavaScript SDK](https://github.com/oxylabs/oxylabs-ai-studio-js) guide for JS users.
 
@@ -92,11 +92,44 @@ This is a structured JSON of the response output:
 
 ```json
 Results:
-{"data": {"items": [{"name": "Halo: Reach", "platform": "Xbox platform", "price": 84.99}]}, "src": "https://sandbox.oxylabs.io/products/141"} 
-
-{"data": {"items": [{"name": "Halo 3", "platform": "Xbox", "price": 81.99}]}, "src": "https://sandbox.oxylabs.io/products/28"} 
-
-{"data": {"items": [{"name": "Halo: Combat Evolved", "platform": "Xbox platform", "price": 87.99}]}, "src": "https://sandbox.oxylabs.io/products/6"} 
+[
+  {
+    "data": {
+      "items": [
+        {
+          "name": "Halo: Reach",
+          "platform": "Xbox platform",
+          "price": 84.99
+        }
+      ]
+    },
+    "src": "https://sandbox.oxylabs.io/products/141"
+  },
+  {
+    "data": {
+      "items": [
+        {
+          "name": "Halo 3",
+          "platform": "Xbox platform",
+          "price": 81.99
+        }
+      ]
+    },
+    "src": "https://sandbox.oxylabs.io/products/28"
+  },
+  {
+    "data": {
+      "items": [
+        {
+          "name": "Halo: Combat Evolved",
+          "platform": "Xbox platform",
+          "price": 87.99
+        }
+      ]
+    },
+    "src": "https://sandbox.oxylabs.io/products/6"
+  }
+]
 ```
 Alternatively, you can use `output_format=”markdown”` to receive Markdown results instead of parsed JSON.
 
